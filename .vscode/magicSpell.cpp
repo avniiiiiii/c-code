@@ -47,11 +47,14 @@ void counterspell(string spell, int power)
 int main()
 {
     int n;
+    cout << "enter n:";
     cin >> n; // Number of scrolls
     for (int i = 0; i < n; i++)
     {
         string spell;
         int power;
+        cout << "enter spell:"
+             << "enter power:" << endl;
         cin >> spell >> power; // Read spell name and power
         counterspell(spell, power);
     }
