@@ -1,4 +1,8 @@
 // VARIABLE SIZED ARRAY//
+//-------------------------------------PROBLEM STATEMENT------------------------------------------------------------------------//:
+// You're given an integer n representing the number of arrays. Each of these arrays contains integers. You're also given q queries.
+// Each query consists of two integers i and j, where i represents the index of an array, and j represents the index within that array. You need to print the element at index j of the array at index i for each query.
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -30,10 +34,8 @@ int main()
     }
     return 0;
 }
-// Problem Statement:
-// You're given an integer n representing the number of arrays. Each of these arrays contains integers. You're also given q queries. Each query consists of two integers i and j, where i represents the index of an array, and j represents the index within that array. You need to print the element at index j of the array at index i for each query.
 
-// Explanation of the Code:
+//------------------------------------- EXPLAINATION OF THE CODE---------------------------------------------------------//
 // Include Header Files: The code includes necessary header files for basic input-output operations (cin, cout) and for using vectors.
 
 // Main Function: The program starts by defining the main() function.
@@ -56,14 +58,20 @@ int main()
 // You have multiple arrays, each containing integers.
 // Queries ask you to find elements from specific positions within these arrays.
 // The code reads the input arrays and processes the queries to provide the requested elements.
-// Simplified Explanation:
-// Input: Read the number of arrays n and the number of queries q.
-// Read Arrays: For each array, read its size and elements.
-// Process Queries: For each query, find and print the element at the specified position within the specified array.
-// Output: Print the requested elements for each query.
-// In essence, the program reads arrays of integers and then answers queries by retrieving elements from those arrays based on the provided indices.//
-// n the context of the question, a "query" refers to a request for information about a specific element within one of the arrays provided as input. Each query consists of two indices:
 
+//------------------------------------------------QUERIES---------------------------------------------------------------------------------//
+
+// In the context of the question, a "query" refers to a request for information about a specific element within one of the arrays provided as input. Each query consists of two indices:
 // The first index (i) indicates the array within the main array of arrays (a).
 // The second index (j) indicates the position within the array specified by the first index, where the desired element is located.
 // For example, if we have an array a containing several arrays of integers, a query could be something like "What is the value at index j within the array at index i?"
+// Suppose we have the following main array a:
+
+// a = [    [1, 2, 3],
+//  [4, 5, 6, 7],
+//  [8, 9]
+//]
+// And we have a query i = 1 and j = 2, then the query is asking for the value at index 2 within the array at index 1:
+
+// Query: (1, 2)
+// Expected Output: 6, because 6 is at index 2 within the array [4, 5, 6, 7].
