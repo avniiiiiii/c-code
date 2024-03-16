@@ -53,9 +53,10 @@ int main()
     {
         string spell;
         int power;
-        cout << "enter spell:"
-             << "enter power:" << endl;
-        cin >> spell >> power; // Read spell name and power
+        cout << "enter spell:";
+        cin >> spell;
+        cout << "enter power:";
+        cin >> power; // Read spell name and power
         counterspell(spell, power);
     }
     return 0;
