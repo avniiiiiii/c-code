@@ -13,4 +13,7 @@ int main()
     cout << "enter x:";
     int x;
     cin >> x;
+    for (int i = 0; i < v.size(); i++)
+    {
+    }
 }
