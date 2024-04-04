@@ -23,4 +23,6 @@ int main()
          << " " << v.capacity() << endl;
     v.pop_back();
     v.pop_back();
+    cout << "size:" << v.size() << "capacity:"
+         << " " << v.capacity() << endl;
 }
