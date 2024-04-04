@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Function to find the length of the longest common subsequence between two strings
+// Function to find the length of the longest common subsequence between two strings IF THE SPELL IS NOT FAMILIAR//
 int longestCommonSubsequence(string s1, string s2)
 {
     int m = s1.length();
