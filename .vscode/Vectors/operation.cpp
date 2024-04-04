@@ -21,4 +21,6 @@ int main()
     v.resize(5);
     cout << "size:" << v.size() << "capacity:"
          << " " << v.capacity() << endl;
+    v.pop_back();
+    v.pop_back();
 }
