@@ -10,4 +10,7 @@ int main()
     {
         cin >> v[i];
     }
+    cout << "enter x:";
+    int x;
+    cin >> x;
 }
