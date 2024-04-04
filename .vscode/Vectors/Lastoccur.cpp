@@ -5,5 +5,9 @@ using namespace std;
 
 int main()
 {
-    vector<int> v = {1, 2, 3, 4, 1, 5};
+    vector<int> v;
+    for (int i = 0; i < 6; i++)
+    {
+        cin >> v[i];
+    }
 }
