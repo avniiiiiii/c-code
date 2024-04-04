@@ -29,4 +29,6 @@ int main()
     v.pop_back();
     cout << "size:" << v.size() << "capacity:"
          << " " << v.capacity() << endl;
+    vector<int> ve = {1, 2, 3, 4};
+    ve.insert(ve.begin() + 1, 9);
 }
