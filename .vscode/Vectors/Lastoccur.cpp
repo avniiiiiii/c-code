@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    vector<int> v;
+    vector<int> v(6); // Resize the vector to size 6
     for (int i = 0; i < 6; i++)
     {
         cin >> v[i];
@@ -13,13 +13,14 @@ int main()
     cout << "enter x:";
     int x;
     cin >> x;
-    int occurence = -1;
+    int occurrence = -1;
     for (int i = 0; i < v.size(); i++)
     {
         if (v[i] == x)
         {
-            occurence = i;
+            occurrence = i;
         }
     }
-    cout << occurence << endl;
+    cout << occurrence << endl;
+    return 0;
 }
