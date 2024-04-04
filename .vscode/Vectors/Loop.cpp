@@ -23,5 +23,10 @@ int main()
         cout << ele << " ";
     }
     cout << endl;
+    int idx = 0;
+    while (idx < v.size())
+    {
+        cout << v[idx++] << endl;
+    }
     return 0;
 }
