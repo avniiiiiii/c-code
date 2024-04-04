@@ -18,4 +18,7 @@ int main()
     v.push_back(4);
     cout << "size:" << v.size() << "capacity:"
          << " " << v.capacity() << endl;
+    v.resize(5);
+    cout << "size:" << v.size() << "capacity:"
+         << " " << v.capacity() << endl;
 }
