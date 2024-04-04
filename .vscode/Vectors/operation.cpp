@@ -29,17 +29,4 @@ int main()
     v.pop_back();
     cout << "size:" << v.size() << "capacity:"
          << " " << v.capacity() << endl;
-    vector<int> ve;
-    for (int i = 0; i < 5; i++)
-    {
-        int element;
-        cin >> element;
-        v.push_back(element);
-
-        for (int i = 0; i < v.size(); i++)
-        {
-            cout << v[i] << endl;
-        }
-        cout << endl;
-    }
 }
