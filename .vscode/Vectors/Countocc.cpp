@@ -15,7 +15,7 @@ int main()
     cout << "enter x:";
     int x;
     cin >> x;
-    int occurences;
+    int occurences = 0;
     for (int ele : v)
     {
         if (ele == x)
