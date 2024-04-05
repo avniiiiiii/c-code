@@ -12,6 +12,13 @@ int main()
     {
         for (int j = i + 1; j < 6; j++)
         {
+            for (int k = j + 1; k < 6; k++)
+            {
+                if (array[i] + array[j] + array[k] == targetsum)
+                {
+                    pairs++;
+                }
+            }
         }
     }
 }
