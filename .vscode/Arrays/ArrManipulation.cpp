@@ -10,10 +10,17 @@ int main()
     {
         for (int j = i + 1; j < 9; j++)
         {
-            if (arr[i] = arr[j])
+            if (arr[i] == arr[j])
             {
-                arr[i] = arr[j] = -1;
+                arr[i] = arr[j] = -1; // Set duplicate element to -1
             }
+        }
+    }
+    for (int i = 0; i < 9; i++)
+    {
+        if (arr[i] > 0) // Print only non-duplicate elements
+        {
+            cout << arr[i] << endl;
         }
     }
 }
