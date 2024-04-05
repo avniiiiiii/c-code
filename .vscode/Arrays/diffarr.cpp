@@ -12,4 +12,5 @@ int main()
                  1,
                  2,
                  1};
+    int sumans = 0;
 }
