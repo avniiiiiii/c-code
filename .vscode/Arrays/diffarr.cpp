@@ -1,4 +1,5 @@
-
+// find the difference btw  the sum of elements at even indices and sum of elements at odd indices//
+// output =[sumeven-sumodd]
 
 #include <iostream>
 using namespace std;
