@@ -19,5 +19,10 @@ int main()
         {
             sumans += arr[i];
         }
+        else
+        {
+            sumans -= arr[i];
+        }
     }
+    cout << sumans << endl;
 }
