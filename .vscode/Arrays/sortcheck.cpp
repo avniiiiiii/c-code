@@ -4,20 +4,22 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {1,
-                 4,
-                 5,
-                 6,
-                 67,
-                 7};
+    int a[] = {1,
+               4,
+               5,
+               6,
+               67,
+               7};
 
-    bool sortflag = false;
+    bool sortflag = true;
     for (int i = 1; i < 6; i++)
     {
-        if (a[i] > a[i - 1])
+        if (a[i] <= a[i - 1])
         {
-            sortflag = true;
+            sortflag = false;
         }
     }
     cout << sortflag << endl;
 }
+// 0 is false
+// 1 is true
