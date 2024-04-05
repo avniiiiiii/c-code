@@ -1,3 +1,4 @@
+// count the  no. of occurences of a particular element x
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -14,4 +15,13 @@ int main()
     cout << "enter x:";
     int x;
     cin >> x;
+    int occurences;
+    for (int ele : v)
+    {
+        if (ele == x)
+        {
+            occurences++;
+        }
+    }
+    cout << occurences << endl;
 }
