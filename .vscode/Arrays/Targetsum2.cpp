@@ -3,6 +3,12 @@
 #include <iostream>
 using namespace std;
 
+// target sum =6
+// i=0 j=1 k=2
+// arr[i]=3
+// arr[j]=1
+// arr[k]=2 3 4
+// t.s true false false
 int main()
 {
     int array[] = {3, 1, 2, 4, 0, 6};
