@@ -1,5 +1,5 @@
+// TARGET SUM WITH DOUBLE//
 // find the total no. of pairs in the array whose sum is equal to the given value
-//
 #include <iostream>
 using namespace std;
 
