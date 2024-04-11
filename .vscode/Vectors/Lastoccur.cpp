@@ -16,7 +16,7 @@ int main()
     int x;
     cin >> x;
     int occurrence = -1;
-    // oop iterates over each element of the vector v to find the last occurrence of the value x. If the current element matches x, the index i is stored in the variable occurrence.
+    // Loop iterates over each element of the vector v to find the last occurrence of the value x. If the current element matches x, the index i is stored in the variable occurrence.
     for (int i = 0; i < v.size(); i++)
     {
         if (v[i] == x)

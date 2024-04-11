@@ -23,7 +23,10 @@ int largestNumIndex(int array[], int size)
 int main()
 {
     int array[] = {1, 3, 5, 4, 9, 10};
-    int largestElementIndex = largestNumIndex(array, 6);
+    int largestIndex = largestNumIndex(array, 6);
+    array[largestIndex] = -1;
+    int secondLargestIndex = largestNumIndex(array, 6);
+    cout << array[secondLargestIndex] << endl;
 
     return 0;
 }
